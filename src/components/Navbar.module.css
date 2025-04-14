@@ -1,0 +1,45 @@
+.navbar{
+    max-width: 1000px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #AAA;
+
+    >div{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        
+        img{
+            width: 50px;
+            aspect-ratio: 1 / 1;
+            border-radius: 50%;
+            background: #AAA;
+        }
+    }
+}
+
+.logo>a{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.navLink{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}

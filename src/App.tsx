@@ -1,9 +1,8 @@
-import './App.css'
-import CookieClicker from './components/CookieClicker'
+import SneakerPage from './pages/SneakerPage'
 
 function App() {
   return (
-    <CookieClicker />
+    <SneakerPage/>
   )
 }
 
